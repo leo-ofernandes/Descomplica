@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade prática 6</title>
+  </head>
+
+  <body>
+    <h1>Formulário de Reserva de Viagem</h1>
+    <form action="" method="GET">
+      <fieldset>
+        <legend>Dados da viagem</legend>
+        <label>Nome</label><br />
+        <input type="text" name="nome" /><br /><br />
+
+        <label>Email</label><br />
+        <input type="email" required name="email" /><br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Quais serviços deseja contratar?</legend>
+        <label for=""
+          ><br /><input
+            type="checkbox"
+            name="passagens"
+            value="Passagens"
+          />Compra de passagens
+        </label>
+        <label for=""
+          ><br /><input
+            type="checkbox"
+            name="hospedagem"
+            value="Hospedagem"
+          />Reserva de hospedagens</label
+        >
+        <label for=""
+          ><br /><input
+            type="checkbox"
+            name="veiculos"
+            value="Veículo"
+          />Reserva de veículos</label
+        >
+      </fieldset>
+
+      <fieldset>
+        <legend>Escolha a forma de pagamento</legend>
+        <label>
+          <br /><input
+            type="radio"
+            name="formaPagamento"
+            value="Cartão de crédito"
+          />Cartão de crédito
+        </label>
+        <label>
+          <br /><input
+            type="radio"
+            name="formaPagamento"
+            value="Boleto"
+          />Boleto
+        </label>
+        <label>
+          <br /><input type="radio" name="formaPagamento" value="Pix" />Pix
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Escolha o prazo para pagamento</legend>
+        <select name="prazoPagamento">
+          <option value="aVista">À vista</option>
+          <option value="5x" selected>5x sem juros</option>
+          <option value="10x">10x com juros</option>
+        </select>
+      </fieldset>
+
+      <label>Comentário</label><br />
+      <textarea name="comentario" rows="5"></textarea><br /><br />
+      <input type="submit" value="Enviar" />
+    </form>
+
+    <footer>
+      <p>Desenvolvido por Leonardo Fernandes</p>
+    </footer>
+  </body>
+</html>
