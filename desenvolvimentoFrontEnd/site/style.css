@@ -30,29 +30,6 @@ h2 {
   font-weight: 600;
 }
 
-nav li a {
-  padding: 10px;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav li {
-  float: left;
-}
-
-nav ul {
-  float: right;
-  list-style: none;
-}
-
-nav {
-  font-size: 12px;
-  letter-spacing: 4px;
-  height: 50px;
-  background-color: #f03b3b;
-  padding-right: 40px;
-}
-
 table {
   width: 100%;
 }
@@ -73,13 +50,4 @@ table tr:nth-child(odd) {
 table thead th {
   background-color: #f4511e;
   color: #fff;
-}
-
-#pacotes .figuras figure {
-  display: inline-block;
-}
-
-#pacotes .figuras,
-#pacotes .videos {
-  text-align: center;
 }
