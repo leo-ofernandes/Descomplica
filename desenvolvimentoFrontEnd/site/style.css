@@ -1,14 +1,6 @@
-body {
-  font-weight: 400;
-  font-family: Lato, Helvetica, sans-serif;
-  font-size: 15px;
-  line-height: 2.2em;
-  color: #818181;
-  margin: 0;
-}
-
-header {
-  background-color: #f4511e;
+header p {
+  color: #fff;
+  font-weight: 600;
 }
 
 section,
@@ -30,24 +22,8 @@ h2 {
   font-weight: 600;
 }
 
-table {
-  width: 100%;
-}
-
-table td {
-  color: #303030;
-  padding: 5px;
-}
-
-table tr:nth-child(even) {
-  background-color: #e9e9e9;
-}
-
-table tr:nth-child(odd) {
-  background-color: #bdbdbd;
-}
-
-table thead th {
-  background-color: #f4511e;
-  color: #fff;
+.carousel-caption h5 {
+  font-size: 80px;
+  color: #ffc107;
+  text-shadow: 2px 2px 2px #000;
 }
